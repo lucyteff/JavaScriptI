@@ -1,10 +1,12 @@
-alert("Lucy")
-anoNascimento = 2001
-
-idade = 2024 - 2001
-
+//input
+anoNascimento=2001
 nome = "Lucy"
 
-mensagem = "Sou " + " nome " + " e tenho " + idade + " anos "
+//process
+hoje = new Date()
+anoAtual = hoje.getFullYear()
+idade = anoAtual - anoNascimento
+mensagem = "Sou " + nome + " e tenho " + idade + " anos "
 
+//output
 alert(mensagem)
